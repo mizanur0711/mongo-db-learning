@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/playground')
-    .then(()=> console.log('Connected to MondoDB '))
+    .then(()=> console.log('Connected to MondoDB'))
     .catch(err=>console.error('could not connect to MongoDb...',err));
 
     const courseSchema = new mongoose.Schema({
